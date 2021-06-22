@@ -3,8 +3,6 @@ layout: home
 sub_title: Sibylle Hess and Michel Hochstenbach
 ---
 
-# A Tutorial on Matrix Factorization with Binary Constraints
-
 ## Abstract
 Matrix decompositions are omnipresent in data mining and machine learning. Computing the solutions to fundamental tasks, such as ridge regression, principal component analysis, and image deblurring, may rely for example on a (truncated) Singular Value Decomposition (SVD). Matrix decompositions (or factorizations) are playing a particularly prominent role in the branch of unsupervised learning. They form a generalized framework under which many of the popular clustering objectives can be formalized. Examples are $k$-means clustering, spectral clustering or subspace clustering, which are all instances of matrix factorization with binary constraints. Subsequently, to get definite cluster assignments, binary constraints are imposed. A binary factor matrix indicates for every observation the cluster(s) to which it is assigned.    
 
