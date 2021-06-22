@@ -14,14 +14,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Awesome Site
-email:
-description:
+title: A Tutorial on Matrix Factorization with Binary Constraints
+email: s.c.hess@tue.nl
+description: this is the  description alias abstract?
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
-  twitter:
+  name: Sibylle Hess
+  twitter: 
+  picture:
+author:
+  name: Michiel Hochstenbach
+  twitter: 
   picture:
 twitter_username:
 github_username:
@@ -82,4 +86,4 @@ defaults:
       type: posts
     values:
       layout: post
-      read_time: true
+      read_time: false
