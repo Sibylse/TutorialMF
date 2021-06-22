@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 sub_title: Sibylle Hess and Michel Hochstenbach
 ---
 
