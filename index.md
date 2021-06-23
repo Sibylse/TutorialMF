@@ -1,8 +1,8 @@
 ---
 layout: post
-title: A Tutorial on Matrix Factorization with Binary Constraints
+title: Matrix Factorizations and Binary Constraints
 image: /assets/images/waldemar-brandt--9r5id5dNKs-unsplash.jpg
-sub_title: Sibylle Hess and Michel Hochstenbach
+sub_title: Sibylle Hess and Michiel Hochstenbach @DSAA2021
 ---
 
 ## Abstract
@@ -11,3 +11,35 @@ Matrix decompositions are omnipresent in data mining and machine learning. Compu
 Computing matrix decompositions, such as SVD and $k$-means clusterings, are well-researched and well-known tasks. However, those decompositions are also still the subject of active research, providing solutions to fundamental open problems which have an impact on various data mining subfields. 
 In this tutorial, we discuss the broad spectrum of matrix factorizations where the approximation error in terms of the Frobenius norm is minimized. We discuss the similarities and differences between these factorizations by means of the imposed constraints. 
 We review existing optimization approaches, generic to objective characteristics. Our focus is thereby on two aspects: on the one hand, conditions and methods which enable large-scale computations of singular value or eigenvalue decompositions, and on the other hand, optimization subject to binary constraints. Our goal is to provide our audience with a rich but clear basis knowledge about the matrix factorization zoo, along with recent advances in (nonconvex) optimization theory which inspire to find novel solutions to longstanding problems.
+
+## Outline
+* Singular Value Decomposition (SVD) 
+  * Truncated SVD and Principal Components Analysis (PCA)
+  * Connections to Eigendecompositions
+  * Optimization
+    * Numerical methods for small- and large-scale problems
+
+* Nonnegative Matrix Factorization (NMF)
+  * Parts-based representation, soft-orthogonality of solutions
+  * Optimization 
+    * Multiplicative updates~\citep{lee2001algorithms,gillis2012accelerated}
+    * Proximal gradient descent~\citep{bolte2014proximal,pock2016inertial, le2020inertial}
+    * Proximal stochastic gradient descent~\citep{driggs2020spring}
+* Factorizations where one matrix is constrained to binary values
+  * (kernel) $k$-means
+  * Minimum cuts and spectral clustering
+  * Optimization 
+    * Lloyd's alternating minimization~\citep{lloyd1982least, whang2015non}
+    * The spectral relaxation: from SVD to clustering~\citep{ding2008nonnegative, hess2019spectacl}
+* Factorizations where two matrices are constrained to binary values
+  * Biclustering of real-valued data: tri-factorizations and bipartite graph cuts
+  * Biclustering of binary data: binary and Boolean matrix factorization
+  * Optimization
+    * Variants of Lloyd's alternating minimization~\citep{wang2011fast,han2017bilateral, song2021weighted}
+    * The (soft)-orthogonal relaxation: from NMF to biclustering~\citep{ding2006orthogonal,pompili2014ONMF, del2015non}
+    * The spectral relaxation: from SVD to biclustering~\citep{zha2002spectral,nie2017learning}
+    * Nonbinary penalization: numerical optimization for approoximately binary solutions~\citep{zhang2010binary,hess2017primping}
+* Conclusions and Outlook
+
+
+
