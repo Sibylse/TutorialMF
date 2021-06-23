@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Tutorial on Matrix Factorization with Binary Constraints
+image: /assets/images/daniel-mccullough-FwjWUGbrxOU-unsplash.jpg
 sub_title: Sibylle Hess and Michel Hochstenbach
 ---
 
