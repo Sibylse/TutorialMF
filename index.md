@@ -22,23 +22,23 @@ We review existing optimization approaches, generic to objective characteristics
 * Nonnegative Matrix Factorization (NMF)
   * Parts-based representation, soft-orthogonality of solutions
   * Optimization 
-    * Multiplicative updates~\citep{lee2001algorithms,gillis2012accelerated}
-    * Proximal gradient descent~\citep{bolte2014proximal,pock2016inertial, le2020inertial}
-    * Proximal stochastic gradient descent~\citep{driggs2020spring}
+    * Multiplicative updates
+    * Proximal gradient descent
+    * Proximal stochastic gradient descent
 * Factorizations where one matrix is constrained to binary values
   * (kernel) $k$-means
   * Minimum cuts and spectral clustering
   * Optimization 
-    * Lloyd's alternating minimization~\citep{lloyd1982least, whang2015non}
-    * The spectral relaxation: from SVD to clustering~\citep{ding2008nonnegative, hess2019spectacl}
+    * Lloyd's alternating minimization
+    * The spectral relaxation: from SVD to clustering
 * Factorizations where two matrices are constrained to binary values
   * Biclustering of real-valued data: tri-factorizations and bipartite graph cuts
   * Biclustering of binary data: binary and Boolean matrix factorization
   * Optimization
-    * Variants of Lloyd's alternating minimization~\citep{wang2011fast,han2017bilateral, song2021weighted}
-    * The (soft)-orthogonal relaxation: from NMF to biclustering~\citep{ding2006orthogonal,pompili2014ONMF, del2015non}
-    * The spectral relaxation: from SVD to biclustering~\citep{zha2002spectral,nie2017learning}
-    * Nonbinary penalization: numerical optimization for approoximately binary solutions~\citep{zhang2010binary,hess2017primping}
+    * Variants of Lloyd's alternating minimization
+    * The (soft)-orthogonal relaxation: from NMF to biclustering
+    * The spectral relaxation: from SVD to biclustering
+    * Nonbinary penalization: numerical optimization for approximately binary solutions
 * Conclusions and Outlook
 
 
