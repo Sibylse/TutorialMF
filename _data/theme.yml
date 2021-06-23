@@ -31,9 +31,9 @@ google_fonts:
   - name: "DM Mono"
     weights: "300,300i,400,400i,500,500i"
   - name: "Lora"
-  - name: 'Overpass'
+  - name: "Overpass"
     weights: "300,300i,400,400i,500,500i"
-  - name: 'Sansita'
+  - name: "Sansita"
     weights: "900,900i"
 
 # Link to specific internal pages in the navigation.
