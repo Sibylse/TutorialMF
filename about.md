@@ -1,7 +1,6 @@
 ---
 title: "About"
 ---
-The speakers:
 
 ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/MeEgg.png){: .align-left} 
 Sibylle Hess is assistant professor of data mining at TU Eindhoven. She completed her Ph.D. summa cum laude in 2019 at Katharina Morik's lab at TU Dortmund University, Germany, as an employee of the collaborative research center SFB876. In her thesis, she investigated the derivation of (certifiably) robust clustering methods under the framework of matrix factorizations.
