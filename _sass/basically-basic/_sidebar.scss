@@ -42,7 +42,7 @@
     /* line hover effect */
     a {
       position: relative;
-      color: $base-color;
+      color: $sidebar-text-color;
 
       &::before {
         display: block;
@@ -88,6 +88,7 @@
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     font-weight: bold;
+    color: $sidebar-text-color;
     line-height: 1;
     color: $sidebar-text-color; 
 
