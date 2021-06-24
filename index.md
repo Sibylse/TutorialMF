@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matrix Factorizations and Binary Constraints
-image: /assets/images/waldemar-brandt--9r5id5dNKs-unsplash.jpg
+image: /assets/images/waldemar-brandt--9r5id5dNKs-unsplash.png
 sub_title: Sibylle Hess and Michiel Hochstenbach @DSAA2021
 ---
 
