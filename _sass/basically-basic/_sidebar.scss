@@ -88,7 +88,6 @@
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     font-weight: bold;
-    color: $sidebar-text-color;
     line-height: 1;
     color: $sidebar-text-color; 
 
@@ -102,7 +101,8 @@
       bottom: 0;
       width: 1.5em;
       height: 1px;
-      background-color: $base-color;
+      background-color: $sidebar-background-color;
+      color: $sidebar-text-color; 
       content: "";
     }
 
