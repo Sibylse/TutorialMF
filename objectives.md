@@ -3,6 +3,8 @@ title: "Objectives"
 layout: post
 sub_title: ""
 ---
+   
+
 The three archetypal factorizations of SVD, NMF  and $$k$$-means have all very popular standard methods to derive their solutions. 
 For SVD these are established numerical methods (as provided by the standard libraries ARPACK and LAPLACK); 
 for NMF these are multiplicative updates which preserve the nonnegativity of the factor matrices by multiplying with nonnegative constants; 
