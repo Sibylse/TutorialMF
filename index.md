@@ -12,17 +12,8 @@ In this tutorial, we discuss the broad spectrum of matrix factorizations where t
 We review existing optimization approaches, generic to objective characteristics. Our focus is thereby on two aspects: on the one hand, conditions and methods which enable large-scale computations of singular value or eigenvalue decompositions, and on the other hand, optimization subject to binary constraints. Our goal is to provide our audience with a rich but clear basis knowledge about the matrix factorization zoo, along with recent advances in (nonconvex) optimization theory which inspire to find novel solutions to longstanding problems.
 
 ## Speakers
-<p style="float: left; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/MeEgg.png" alt="" style="width: 100%">Caption</p>
-<p style="float: left; font-size: 9pt; text-align: center; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michiel2018.jpg" style="width: 100%">Caption</p>
-
-<figure class="align-speaker">
-  <a href="#"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/MeEgg.png" alt=""></a>
-  <figcaption>Sibylle Hess</figcaption>
-</figure> 
-<figure class="align-speaker">
-  <a href="#"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michiel2018.jpg" alt=""></a>
-  <figcaption>Michiel Hochstenbach</figcaption>
-</figure> 
+<p style="float: left; font-size: 9pt; text-align: center; margin-left: 10%; margin-bottom: 0.5em;"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/MeEgg.png" alt="" style="width: 100%, border-radius:50%">Sibylle Hess</p>
+<p style="float: right; font-size: 9pt; text-align: center; width: 30%; margin-right: 10%; margin-bottom: 0.5em;"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michiel2018.jpg" style="width: 100%">Michiel Hochstenbach</p>
 
 ## Outline
 * Singular Value Decomposition (SVD) 
