@@ -13,7 +13,7 @@ We review existing optimization approaches, generic to objective characteristics
 
 ## Speakers
 <p style="float: left; text-align: center; margin-left: 10%; margin-bottom: 0.5em;"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/MeEgg.png" alt="" style="width: 100%; border-radius:50%">Sibylle Hess</p>
-<p style="float: right; font-size: 9pt; text-align: center; width: 30%; margin-right: 10%; margin-bottom: 0.5em;"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michiel2018.jpg" style="width: 100%">Michiel Hochstenbach</p>
+<p style="float: right; text-align: center; margin-right: 10%; margin-bottom: 0.5em;"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michiel2018.jpg" style="width: 100%">Michiel Hochstenbach</p>
 <div style="clear: both;"></div>
 
 ## Outline
