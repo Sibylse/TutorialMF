@@ -34,17 +34,11 @@ figure.align-center {
   }
 }
 
-figure.align-speaker {
-
-  img {
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 50%;
-  }
-
-  figcaption {
-    text-align: center;
-  }
+.align-speaker,
+a img.align-speaker {
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .align-right,
