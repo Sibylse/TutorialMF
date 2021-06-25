@@ -20,6 +20,7 @@ We review existing optimization approaches, generic to objective characteristics
   <a href="#"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michiel2018.jpg" alt=""></a>
   <figcaption>Michiel Hochstenbach</figcaption>
 </figure> 
+
 ## Outline
 * Singular Value Decomposition (SVD) 
   * Truncated SVD and Principal Components Analysis (PCA)
