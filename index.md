@@ -11,11 +11,6 @@ Computing matrix decompositions, such as SVD and $$k$$-means clusterings, are we
 In this tutorial, we discuss the broad spectrum of matrix factorizations where the approximation error in terms of the Frobenius norm is minimized. We discuss the similarities and differences between these factorizations by means of the imposed constraints. 
 We review existing optimization approaches, generic to objective characteristics. Our focus is thereby on two aspects: on the one hand, conditions and methods which enable large-scale computations of singular value or eigenvalue decompositions, and on the other hand, optimization subject to binary constraints. Our goal is to provide our audience with a rich but clear basis knowledge about the matrix factorization zoo, along with recent advances in (nonconvex) optimization theory which inspire to find novel solutions to longstanding problems.
 
-## Speakers
-<p style="float: left; text-align: center; width: 30%; margin-left:10%; margin-bottom: 0.5em;"><a href="https://research.tue.nl/en/persons/sibylle-hess"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/meEggSquare.jpg" alt="" style="width: 100%;border-radius:50%"></a>Sibylle Hess</p>
-<p style="float: right; text-align: center;  width: 30%; margin-right:10%;margin-bottom: 0.5em;"><a href="https://www.tue.nl/en/research/researchers/michiel-hochstenbach/"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michielSquare.jpg" style="width: 100%;border-radius:50%"></a>Michiel Hochstenbach</p>
-<div style="clear: both;"></div>
-
 ## Outline
 * Singular Value Decomposition (SVD) 
   * Truncated SVD and Principal Components Analysis (PCA)
@@ -45,5 +40,7 @@ We review existing optimization approaches, generic to objective characteristics
     * Nonbinary penalization: numerical optimization for approximately binary solutions
 * Conclusions and Outlook
 
-
-
+## Speakers
+<p style="float: left; text-align: center; width: 30%; margin-left:10%; margin-bottom: 0.5em;"><a href="https://research.tue.nl/en/persons/sibylle-hess"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/meEggSquare.jpg" alt="" style="width: 100%;border-radius:50%"></a>Sibylle Hess</p>
+<p style="float: right; text-align: center;  width: 30%; margin-right:10%;margin-bottom: 0.5em;"><a href="https://www.tue.nl/en/research/researchers/michiel-hochstenbach/"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michielSquare.jpg" style="width: 100%;border-radius:50%"></a>Michiel Hochstenbach</p>
+<div style="clear: both;"></div>
