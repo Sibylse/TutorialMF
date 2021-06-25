@@ -5,7 +5,7 @@
 .navicon-button {
   display: inline-block;
   position: relative;
-  padding: 1rem 1rem;
+  padding: 0rem 0.5rem;
   min-height: $site-image-height;
   -webkit-transition: $navicon-duration / 2;
   transition: $navicon-duration / 2;
@@ -40,7 +40,7 @@
     }
 
     .navicon::before {
-      top: (2.5 * $navicon-height);
+      top: (1.5 * $navicon-height);
     }
     .navicon::after {
       top: (-2.5 * $navicon-height);
@@ -71,7 +71,7 @@
   }
 
   &::before {
-    top: (1 * $navicon-height);
+    top: (0 * $navicon-height);
   }
   &::after {
     top: (-2 * $navicon-height);
