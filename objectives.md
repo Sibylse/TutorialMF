@@ -3,7 +3,7 @@ title: "Objectives"
 layout: post
 sub_title: ""
 ---
-   
+In this tutorial, we will survey matrix factorizations (with focus on clustering) and their optimization.   
 
 The three archetypal factorizations of SVD, NMF  and $$k$$-means have all very popular standard methods to derive their solutions. 
 For SVD these are established numerical methods (as provided by the standard libraries ARPACK and LAPLACK); 
