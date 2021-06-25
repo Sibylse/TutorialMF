@@ -71,7 +71,7 @@
   }
 
   &::before {
-    top: (2 * $navicon-height);
+    top: (1 * $navicon-height);
   }
   &::after {
     top: (-2 * $navicon-height);
