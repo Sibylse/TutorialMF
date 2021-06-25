@@ -2,6 +2,8 @@
 title: "Literature"
 layout: post
 ---
+We  will summarize, compare and discuss in particular the following references:
+
 Baglama, J., & Reichel, L. (2005). Augmented implicitly restarted Lanczos bidiagonalization methods. _SIAM Journal on Scientific Computing_.
 
 Bai, X., Buccini, A., & Reichel, L. (2021). Golub–Kahan vs. Monte Carlo: a comparison of bidiagonlization and a randomized SVD method for the solution of linear discrete ill-posed problems. _BIT Numerical Mathematics_.
