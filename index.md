@@ -12,6 +12,7 @@ Computing matrix decompositions, such as SVD and $$k$$-means clusterings, are we
 In this tutorial, we discuss the broad spectrum of matrix factorizations where the approximation error in terms of the Frobenius norm is minimized. We discuss the similarities and differences between these factorizations by means of the imposed constraints. 
 We review existing optimization approaches, generic to objective characteristics. Our focus is thereby on two aspects: on the one hand, conditions and methods which enable large-scale computations of singular value or eigenvalue decompositions, and on the other hand, optimization subject to binary constraints. Our goal is to provide our audience with a rich but clear basis knowledge about the matrix factorization zoo, along with recent advances in (nonconvex) optimization theory which inspire to find novel solutions to longstanding problems.
 
+[Intro.pdf](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial0_intro.pdf)
 ## Outline
 * Singular Value Decomposition (SVD) 
   * Truncated SVD and Principal Components Analysis (PCA)
