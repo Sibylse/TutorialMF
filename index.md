@@ -13,7 +13,8 @@ In this tutorial, we discuss the broad spectrum of matrix factorizations where t
 We review existing optimization approaches, generic to objective characteristics. Our focus is thereby on two aspects: on the one hand, conditions and methods which enable large-scale computations of singular value or eigenvalue decompositions, and on the other hand, optimization subject to binary constraints. Our goal is to provide our audience with a rich but clear basis knowledge about the matrix factorization zoo, along with recent advances in (nonconvex) optimization theory which inspire to find novel solutions to longstanding problems.
 
 ## Outline
-* Intro     [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial0_intro.pdf){: .btn .btn--primary .btn--small}
+* Intro     
+  [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial0_intro.pdf){: .btn .btn--primary .btn--small}
 * Singular Value Decomposition (SVD) 
   * Truncated SVD and Principal Components Analysis (PCA)
   * Connections to Eigendecompositions
