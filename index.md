@@ -2,7 +2,7 @@
 layout: post
 title: Matrix Factorizations with Binary Constraints
 image: /assets/images/waldemar-brandt--9r5id5dNKs-unsplash.jpg
-sub_title: Sibylle Hess and Michiel Hochstenbach @DSAA2021
+sub_title: Sibylle Hess and Michiel Hochstenbach @SDM2022
 ---
 
 ## Abstract
@@ -10,32 +10,32 @@ Matrix decompositions are omnipresent in data mining and machine learning. Compu
 
 Computing matrix decompositions, such as SVD and $$k$$-means clusterings, are well-researched and well-known tasks. However, those decompositions are also still the subject of active research, providing solutions to fundamental open problems which have an impact on various data mining subfields. 
 In this tutorial, we discuss the broad spectrum of matrix factorizations where the approximation error in terms of the Frobenius norm is minimized. We discuss the similarities and differences between these factorizations by means of the imposed constraints. 
-We review existing optimization approaches, generic to objective characteristics. Our focus is thereby on two aspects: on the one hand, conditions and methods which enable large-scale computations of singular value or eigenvalue decompositions, and on the other hand, optimization subject to binary constraints. Our goal is to provide our audience with a rich but clear basis knowledge about the matrix factorization zoo, along with recent advances in (nonconvex) optimization theory which inspire to find novel solutions to longstanding problems.
+We review existing optimization approaches and their connectioon to deep learning, generic to objective characteristics. Our focus is thereby on two aspects: on the one hand, conditions and methods which enable large-scale computations of singular value or eigenvalue decompositions, and on the other hand, optimization subject to binary constraints. Our goal is to provide our audience with a rich but clear basis knowledge about the matrix factorization zoo, along with recent advances in (nonconvex) optimization theory which inspire to find novel solutions to longstanding problems.
 
 ## Outline
 * Intro     
-  [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial0_intro.pdf){: .btn .btn--primary .btn--small}
+  <!---[slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial0_intro.pdf){: .btn .btn--primary .btn--small}--->
 * Singular Value Decomposition (SVD) 
   * Truncated SVD and Principal Components Analysis (PCA)
   * Connections to Eigendecompositions
   * Optimization
     * Numerical methods for small- and large-scale problems     
-  [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial1_SVD.pdf){: .btn .btn--primary .btn--small}
+  <!---[slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial1_SVD.pdf){: .btn .btn--primary .btn--small}--->
 * Nonnegative Matrix Factorization (NMF)
   * Parts-based representation, soft-orthogonality of solutions
   * Optimization 
     * Multiplicative updates
     * Proximal gradient descent
     * Proximal stochastic gradient descent    
-  [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial2_NMF.pdf){: .btn .btn--primary .btn--small}
+  <!---[slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial2_NMF.pdf){: .btn .btn--primary .btn--small}--->
 * Factorizations where one matrix is constrained to binary values
   * (kernel) $$k$$-means
   * Minimum cuts and spectral clustering
   * Optimization 
     * Lloyd's alternating minimization
     * The spectral relaxation: from SVD to clustering     
-  [slides 1](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial3a_kmeans.pdf){: .btn .btn--primary .btn--small}
-  [slides 2](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial3b_spectralClustering.pdf){: .btn .btn--primary .btn--small}
+  <!---[slides 1](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial3a_kmeans.pdf){: .btn .btn--primary .btn--small}--->
+  <!---[slides 2](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial3b_spectralClustering.pdf){: .btn .btn--primary .btn--small}--->
 * Factorizations where two matrices are constrained to binary values
   * Biclustering of real-valued data: tri-factorizations and bipartite graph cuts
   * Biclustering of binary data: binary and Boolean matrix factorization
@@ -44,9 +44,15 @@ We review existing optimization approaches, generic to objective characteristics
     * The (soft)-orthogonal relaxation: from NMF to biclustering
     * The spectral relaxation: from SVD to biclustering
     * Nonbinary penalization: numerical optimization for approximately binary solutions     
-  [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial4_biclustering.pdf){: .btn .btn--primary .btn--small}
-* Conclusions and Outlook    
-  [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial5_directions.pdf){: .btn .btn--primary .btn--small}
+  <!---[slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial4_biclustering.pdf){: .btn .btn--primary .btn--small}--->
+* Where else can we go from here?
+  * A clustering perspective on deep learning
+  * Deep clustering and its challenges
+  * Other related binary learning tasks 
+    * Quantum Computing
+    * Semantic Hashing 
+   
+  <!---[slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial5_directions.pdf){: .btn .btn--primary .btn--small}--->
 
 ## Speakers
 <p style="float: left; text-align: center; width: 30%; margin-left:10%; margin-bottom: 0.5em;"><a href="https://research.tue.nl/en/persons/sibylle-hess"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/meEggSquare.jpg" alt="" style="width: 100%;border-radius:50%"></a>Sibylle Hess</p>
