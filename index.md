@@ -14,28 +14,23 @@ We review existing optimization approaches and their connectioon to deep learnin
 
 ## Outline
 * Intro     
-  <!-- [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial0_intro.pdf){: .btn .btn--primary .btn--small} -->
 * Singular Value Decomposition (SVD) 
   * Truncated SVD and Principal Components Analysis (PCA)
   * Connections to Eigendecompositions
   * Optimization
     * Numerical methods for small- and large-scale problems     
-  <!-- [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial1_SVD.pdf){: .btn .btn--primary .btn--small} -->
 * Nonnegative Matrix Factorization (NMF)
   * Parts-based representation, soft-orthogonality of solutions
   * Optimization 
     * Multiplicative updates
     * Proximal gradient descent
     * Proximal stochastic gradient descent    
-  <!-- [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial2_NMF.pdf){: .btn .btn--primary .btn--small} -->
 * Factorizations where one matrix is constrained to binary values
   * (kernel) $$k$$-means
   * Minimum cuts and spectral clustering
   * Optimization 
     * Lloyd's alternating minimization
     * The spectral relaxation: from SVD to clustering     
-  <!-- [slides 1](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial3a_kmeans.pdf){: .btn .btn--primary .btn--small} -->
-  <!-- [slides 2](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial3b_spectralClustering.pdf){: .btn .btn--primary .btn--small -->
 * Factorizations where two matrices are constrained to binary values
   * Biclustering of real-valued data: tri-factorizations and bipartite graph cuts
   * Biclustering of binary data: binary and Boolean matrix factorization
@@ -44,15 +39,12 @@ We review existing optimization approaches and their connectioon to deep learnin
     * The (soft)-orthogonal relaxation: from NMF to biclustering
     * The spectral relaxation: from SVD to biclustering
     * Nonbinary penalization: numerical optimization for approximately binary solutions     
-  <!-- [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial4_biclustering.pdf){: .btn .btn--primary .btn--small} -->
 * Where else can we go from here?
   * A clustering perspective on deep learning
   * Deep clustering and its challenges
   * Other related binary learning tasks 
     * Quantum Computing
     * Semantic Hashing 
-   
-  <!-- [slides](http://Sibylse.github.io/TutorialMF/assets/slides/MF_Tutorial5_directions.pdf){: .btn .btn--primary .btn--small} -->
 
 ## Speakers
 <p style="float: left; text-align: center; width: 30%; margin-left:10%; margin-bottom: 0.5em;"><a href="https://research.tue.nl/en/persons/sibylle-hess"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/EindhovenPortraitSquare.jpg" alt="" style="width: 100%;border-radius:50%"></a>Sibylle Hess</p>
