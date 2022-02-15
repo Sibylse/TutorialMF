@@ -47,4 +47,7 @@ We review existing optimization approaches and their connectioon to deep learnin
     * Semantic Hashing 
 
 ## Speakers
+<p style="float: left; text-align: center; width: 30%; margin-left:10%; margin-bottom: 0.5em;"><a href="https://research.tue.nl/en/persons/sibylle-hess"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/EindhovenPortraitSquare.jpg" alt="" style="width: 100%;border-radius:50%"></a>Sibylle Hess</p>
+
+<p style="float: right; text-align: center;  width: 30%; margin-right:10%;margin-bottom: 0.5em;"><a href="https://www.tue.nl/en/research/researchers/michiel-hochstenbach/"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/michielSquare.jpg" style="width: 100%;border-radius:50%"></a>Michiel Hochstenbach</p>
 <div style="clear: both;"></div>
