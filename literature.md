@@ -48,6 +48,8 @@ We  will summarize, compare and discuss in particular the following references:
 
 [**Li & Ding 2006**] Li, T., & Ding, C. (2006). The relationships among various nonnegative matrix factorization methods for clustering. _International Conference on Data Mining_ (ICDM).
 
+[**Mair & Brefeld 2019**] Mair, S., & Brefeld, U. (2019). Coresets for Archetypal Analysis. _NeurIPS_.
+
 [**Parikh & Boyd 2014**] Parikh, N., & Boyd, S. (2014). Proximal algorithms. _Foundations and Trends in Optimization_.
 
 [**Peharz et al. 2010**] Peharz, R., Stark, M., & Pernkopf, F. (2010). Sparse nonnegative matrix factorization using ℓ0-constraints. _IEEE International Workshop on Machine Learning for Signal Processing_.
@@ -94,6 +96,8 @@ We  will summarize, compare and discuss in particular the following references:
 
 [**Ding et al. 2006**] Ding, C., Li, T., Peng, W., & Park, H. (2006). Orthogonal nonnegative matrix t-factorizations for clustering. _Proceedings of the ACM SIGKDD international conference on Knowledge discovery and data mining_ (SIGKDD).
 
+[**Fischer & Vreeken 2021**] Fischer, J., & Vreeken, J. (2021). Differentiable Pattern Set Mining. Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining.
+
 [**Han et al. 2017**] Han, J., Song, K., Nie, F., & Li, X. (2017). Bilateral k-means algorithm for fast co-clustering. _Proceedings of the AAAI Conference on Artificial Intelligence_ (AAAI).
 
 [**Henriques et al. 2015**] Henriques, R., Antunes, C., & Madeira, S. (2015). A structured view on pattern mining-based biclustering. _Pattern Recognition_.
@@ -123,5 +127,7 @@ We  will summarize, compare and discuss in particular the following references:
 ## Deep Learning as Kernel k-means
 
 [**Hess et al. 2020**] Hess, S., Duivesteijn, W., & Mocanu, D.C. (2020). Softmax-based Classification is k-means Clustering: Formal Proof, Consequences for Adversarial Attacks, and Improvement through Centroid Based Tailoring. _ArXiv, abs/2001.01987_.
+
+[**Niepert et al. 2021**] Niepert, M., Minervini, P., & Franceschi, L. (2021). Implicit MLE: Backpropagating Through Discrete Exponential Family Distributions. ArXiv, abs/2106.01798.
 
 [**Sinhamahapatra et al. 2022**] Sinhamahapatra, P., Koner, R., Roscher, K., & Günnemann, S. (2022). Is it all a cluster game? - Exploring Out-of-Distribution Detection based on Clustering in the Embedding Space. _ArXiv, abs/2203.08549_.
