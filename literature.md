@@ -114,6 +114,8 @@ We  will summarize, compare and discuss in particular the following references:
 
 [**Miettinen et al. 2008**] Miettinen, P., Mielikäinen, T., Gionis, A., Das, G., & Mannila, H. (2008). The discrete basis problem. _IEEE Transactions on Knowledge and Data Engineering_ (TKDE).
 
+[**Miettinen & Neumann 2020**] Miettinen, P., & Neumann, S. (2020). Recent Developments in Boolean Matrix Factorization. _IJCAI_.
+
 [**Nie et al. 2017**] Nie, F., Wang, X., Deng, C., & Huang, H. (2017). Learning a structured optimal bipartite graph for co-clustering. _Advances in Neural Information Processing Systems_ (NeurIPS).
 
 [**Song et al. 2021**] Song, K., Yao, X., Nie, F., Li, X., & Xu, M. (2021). Weighted bilateral K-means algorithm for fast co-clustering and fast spectral clustering. _Pattern Recognition_.
